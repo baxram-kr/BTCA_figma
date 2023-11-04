@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+.big-nav {
+  padding-bottom: 60px;
+  background-image: url(/assets/media/Rectangle.png);
+}
+.big-nav nav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(267.43deg, rgba(0, 255, 163, 0.12) 36.58%, rgba(31, 26, 255, 0.2) 80.91%);
+}
+.big-nav nav .on ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 1000px) {
+  .big-nav nav .on ul #j {
+    display: none;
+  }
+}
+.big-nav nav .on ul a {
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 0.42);
+}
+.big-nav nav .on ul a:hover {
+  color: white;
+}
+.big-nav nav .shep {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.big-nav nav .shep a {
+  border-radius: 6px;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 5px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(225, 225, 225, 0.252) 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  color: white;
+}
+.big-nav nav .shep a img {
+  margin-right: 6px;
+  margin-bottom: 3px;
+  align-items: center;
+}
+.big-nav .bot-nav {
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.big-nav .bot-nav .left {
+  width: 45%;
+  color: white;
+}
+.big-nav .bot-nav .left h1 {
+  color: white;
+  margin: 40px 0;
+}
+@media (max-width: 1000px) {
+  .big-nav .bot-nav .left {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.big-nav .bot-nav .rig {
+  width: 35%;
+}
+@media (max-width: 1000px) {
+  .big-nav .bot-nav .rig {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.big-nav .bot-nav .rig img {
+  width: 100%;
+}
+.big-nav .fil {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: rgb(5, 2, 18);
+  color: white;
+  padding: 30px;
+}
+.logos .text {
+  width: 45%;
+  height: 500px;
+}
+.logos .text h1 {
+  color: white;
+  margin: 30px 0;
+}
+.logos .text p {
+  font-size: 20px;
+}
+@media (max-width: 1000px) {
+  .logos .text {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+  }
+}
+.logos .logo {
+  position: relative;
+  width: 46%;
+  padding: 20px;
+}
+@media (max-width: 1000px) {
+  .logos .logo {
+    display: none;
+  }
+}
+.logos .logo img {
+  position: absolute;
+}
+.logos .logo #g1 {
+  top: 10px;
+  left: 45%;
+}
+.logos .logo #g2 {
+  top: 50px;
+  left: 23%;
+}
+.logos .logo #g3 {
+  top: 20px;
+  right: 10px;
+}
+.logos .logo #g4 {
+  top: 120px;
+  left: 45%;
+}
+.logos .logo #g5 {
+  top: 200px;
+  left: 25%;
+}
+.logos .logo #g6 {
+  top: 280px;
+  left: 30%;
+}
+.logos .logo #g7 {
+  top: 270px;
+  left: 50%;
+}
+.logos .logo #g8 {
+  top: 270px;
+  right: 0px;
+}
+.logos .logo #g9 {
+  top: 150px;
+  right: 0px;
+}
+
+.card {
+  background-image: url(/assets/media/Rectangle.png);
+  padding: 40px;
+}
+.card .box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+.card .box .text {
+  width: 35%;
+}
+@media (max-width: 1000px) {
+  .card .box .text {
+    width: 100%;
+  }
+}
+.card .box .text ul {
+  padding: 0;
+  display: flex;
+}
+.card .box .text ul a {
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 0.42);
+}
+.card .box .text button {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(98, 127, 227, 0.15);
+  color: white;
+  border: none;
+}
+.card .box .text h1 {
+  color: white;
+}
+.card .box .text p {
+  color: white;
+}
+.card .box .photo {
+  width: 60%;
+}
+@media (max-width: 1000px) {
+  .card .box .photo {
+    width: 100%;
+  }
+}
+.card .box .photo .gg img {
+  width: 100%;
+}
+
+.card-2 {
+  background-color: rgb(5, 2, 18);
+  padding: 30px;
+}
+.card-2 .step-1 {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  .card-2 .step-1 {
+    width: 100%;
+  }
+}
+.card-2 .step-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+.card-2 .step-2 .item {
+  width: 32%;
+  border-radius: 6px;
+  margin: 14px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: rgb(21, 24, 34);
+  color: white;
+}
+@media (max-width: 1000px) {
+  .card-2 .step-2 .item {
+    width: 100%;
+  }
+}
+.card-2 .step-2 .item .text {
+  width: 70%;
+}
+.card-2 .step-2 .item .text h3 {
+  font-size: 35px;
+  color: white;
+}
+.card-2 .step-2 .item .text button {
+  background: rgb(29, 154, 109);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.card-2 .step-2 .item .photo {
+  width: 30%;
+}
+.card-2 .step-2 .item .photo img {
+  width: 100%;
+}
+.card-2 .step-3 {
+  background-image: url(/assets/media/Rectangle.png);
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 6px;
+}
+.card-2 .step-3 h1 {
+  margin: 10px 0;
+  color: white;
+}
+@media (max-width: 1000px) {
+  .card-2 .step-3 h1 {
+    font-size: 20px;
+  }
+}
+.card-2 .step-3 p {
+  color: white;
+  width: 50%;
+}
+@media (max-width: 1000px) {
+  .card-2 .step-3 p {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+.card-2 .step-3 input {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(5, 2, 18);
+  color: white;
+}
+@media (max-width: 1000px) {
+  .card-2 .step-3 input {
+    width: 100%;
+  }
+}
+
+footer {
+  background-color: rgb(21, 24, 34);
+  padding: 40px;
+}
+footer a {
+  color: #3A68B8;
+}
+footer p {
+  color: white;
+  opacity: 0.6;
+}
+footer .f-box {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+}
+footer .f-box #st {
+  display: flex;
+  margin-top: 15px;
+}
+footer .f-box #st li a {
+  padding: 10px;
+}
+@media (max-width: 1038px) {
+  footer .f-box {
+    flex-wrap: wrap;
+  }
+}
+footer .f-box .foot {
+  width: 30%;
+}
+@media (max-width: 1038px) {
+  footer .f-box .foot {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+footer .f-box .foot p {
+  font-size: 12px;
+}
+footer .f-box .foot ul li {
+  padding: 5px 0;
+}
+footer .f-box .foot ul li h3 {
+  margin-bottom: 10px;
+  color: white;
+}
+footer .f-box .foot ul li a {
+  margin: 5px 0;
+  color: white;
+  opacity: 0.6;
+  font-size: 13px;
+}
+footer .f-box .foot ul li a:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
